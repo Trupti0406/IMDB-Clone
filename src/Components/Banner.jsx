@@ -1,13 +1,10 @@
 import React from "react";
-import BannerImage from "./banner.jpg";
-import "./Banner.css";
 const Banner = () => {
   return (
     <>
-      <img src={BannerImage} alt="Banner of most trending movie" />
-      <div className="banner-head">
-        <div className="bg-gray-900 text-white text-3xl py-9 bg-opacity-40 text-center font-bold">
-          Megan
+      <div className="bg-banner bg-center bg-cover flex items-end h-[40vh] md:h-[60vh]  ">
+        <div className="text-xl md:text-3xl text-white text-center font-bold bg-gray-900 bg-opacity-60 p-4 w-full">
+          M3GAN
         </div>
       </div>
     </>
